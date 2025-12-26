@@ -1,71 +1,61 @@
-# Getting Started with Create React App
+# Coffee Shop Management System ☕🍰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React + Redux web application for managing a Coffee Shop with products, users, orders, payments, and complaints. Includes role-based access with admin functionalities.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### General
+- User authentication and admin login.
+- Role-based routing and UI rendering.
+- Navigation bar (`NavBar`) and sidebar (`BarSider`) for admin panel.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Admin
+- Manage products: add, edit, view, delete.
+- Manage categories: add, delete.
+- Manage users: register, view, delete.
+- Handle orders: add, view, list, delete.
+- Handle complaints: write, view, see by ID.
+- Manage payments: list, view details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Components
+- `NavBar`, `BarSider` for layout and navigation.
+- `Home`, `About`, `Products` for main pages.
+- Admin components: `ProductPage`, `ProductEdit`, `ProductManager`, `UserList`, `ViewUser`, `RegisterAdmin`, `RegisterUser`, `ViewComplaints`, `WriteComplaints`, `GetAllOrders`, `ListPayments`, etc.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
+- **Frontend:** React.js  
+- **State Management:** Redux  
+- **Routing:** React Router DOM  
+- **Styling:** CSS  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+```bash
+   git clone https://github.com/Eng-Maya/coffee-shop.git
+```
+---
+## Navigate to the project folder:
+```bash
+cd coffee-shop
+```
+---
+## Install dependencies:
+```bash
+npm install
+```
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Start the development server:
+```bash
+npm start
+```
+---
+### Open the app in your browser: http://localhost:3000
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# CoffeShop_Reaactjs" 
